@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Environments & secrets
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Editors / OS
+.vscode/
+.history/
+*.code-workspace
+.ipynb_checkpoints
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Local test drivers (not part of submissions)
+*-main.py
+*-main_*.py
+
+# Data & generated outputs
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.sqlite
+*.db
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.html
+*.zip
+data/
+downloads/
